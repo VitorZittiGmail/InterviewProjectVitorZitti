@@ -6,4 +6,4 @@ The app has 2 Views, the CatListView and the CatDetailsView.
 
 The CatListView, lists the cats from the Api response, clicking in a Cat Photo will open the Details Page, since the Api does not return information about the Cat, a Placeholder text is used.
 
-
+Both Views use a component called ImageFromURL, to show the Cat`s photo, this component also saves the photo on the Cache, for a better user experience.
